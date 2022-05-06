@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="https://unpkg.com/vue@next"></script>
+    <link rel="stylesheet" href="stylesheet.css">
+</head>
+<body>
+<div id="application">
+    <cat-item
+            v-for="item in cats"
+            v-bind:cat="item"
+    ></cat-item>
+</div>
+<script src="javascript1.js"></script>
+</body>
+</html>
